@@ -7,9 +7,11 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "noImplicitAny": true,
-    "suppressImplicitAnyIndexErrors": true,
     "declaration": true,
-    "lib": ["es2015", "dom"]
+    "lib": [
+      "es2015",
+      "dom"
+    ]
   },
   "files": [
     "index.ts"
@@ -19,6 +21,7 @@
   ],
   "angularCompilerOptions": {
     "skipMetadataEmit": false,
-    "skipTemplateCodegen": true
+    "skipTemplateCodegen": true,
+    "strictTemplates": true
   }
 }
