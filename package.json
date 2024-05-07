@@ -1,7 +1,7 @@
 {
   "name": "angular-captcha-ivy",
   "version": "1.0.0",
-  "description": "BotDetect CAPTCHA Angular Module (TypeScript: Angular 2/4/5/6/7/8+) forked and adapted for ivy support",
+  "description": "BotDetect CAPTCHA Angular Module (TypeScript: Angular 9+) forked and adapted for ivy support",
   "scripts": {
     "clean": "rimraf *.d.ts *.js *.map *.metadata.json src/**/*.d.ts src/**/*.js src/**/*.map src/**/*.metadata.json src/**/*.js.map",
     "build": "ngc -p tsconfig.json",
@@ -9,13 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/captcha-com/angular-captcha.git"
+    "url": "git+https://github.com/MouradHM/angular-captcha-ivy.git"
   },
-  "author": "BotDetect Captcha",
+  "author": "Mourad Hamou-Mamar",
   "bugs": {
-    "url": "https://captcha.com/support"
+    "url": "https://github.com/MouradHM/angular-captcha-ivy"
   },
-  "homepage": "https://captcha.com/angular-captcha.html#angular:2+",
+  "homepage": "https://github.com/MouradHM/angular-captcha-ivy",
   "keywords": [
     "captcha",
     "angular captcha",
